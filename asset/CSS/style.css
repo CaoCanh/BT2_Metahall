@@ -88,6 +88,10 @@
     color: #FCFCFD;
 }
 
+.menu__list--bar li:hover .list--user li a {
+    color: #B1B5C3;
+}
+
 
 
 .menu__list--bar a{
@@ -121,9 +125,10 @@
     
 }
 
-.list--user li:hover{
+.list--user li:hover,
+.list--user li:hover a{
     background: linear-gradient(to right,#EB1C24, #BD2648);
-    color: #FCFCFD;
+    color: #FCFCFD !important;
 }
 
 .menu__list-img{
