@@ -43,6 +43,10 @@
     padding: 24px 52px;
 }
 
+.menu__logo:hover {
+    opacity: 0.8;
+}
+
 .wrapper__menu--tabled{
     display: none;
 }
@@ -115,6 +119,11 @@
     line-height: 140%;
     font-weight: 600;
     
+}
+
+.list--user li:hover{
+    background: linear-gradient(to right,#EB1C24, #BD2648);
+    color: #FCFCFD;
 }
 
 .menu__list-img{
@@ -265,6 +274,12 @@
     font-family: Montserrat-medium;
     font-weight: 500;
     cursor: pointer;
+    border-radius: 8px;
+    transition: opacity 0.3;
+}
+
+.layout--button:hover{
+    opacity: 0.8;
 }
 
 
@@ -283,6 +298,11 @@
 
 .item--grid{
     padding:24px;
+    transition:opacity 0.2;
+}
+
+.item--grid:hover{
+    opacity: 0.5;
 }
 
 .grid--header{
