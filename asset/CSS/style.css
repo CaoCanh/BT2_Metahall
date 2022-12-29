@@ -141,10 +141,14 @@
     color:#fff;
 }
 
-.menu__list--bar li:hover path {
+.menu__list--bar .list--icon--stroke:hover path {
     stroke: #FCFCFD;
-    fill:#FCFCFD;
+    /* fill:#FCFCFD; */
     
+}
+
+.menu__list--bar .list--icon--fill:hover path {
+    fill:#FCFCFD;
 }
 
 .menu__list--icon{
@@ -313,6 +317,10 @@
 .grid--header{
     display: flex;
     justify-content: flex-end;
+}
+
+.grid--header svg{
+    cursor: pointer;
 }
 
 .grid--avt{
